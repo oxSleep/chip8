@@ -9,7 +9,7 @@ use font::FONT_SET;
 const CHIP8_WIDTH: usize = 64;
 const CHIP8_HEIGHT: usize = 32;
 const CHIP8_RAM: usize = 4096;
-const GAME: &str = "/home/sleepy/Downloads/Cave.ch8";
+const GAME: &str = "PATH/TO/ROM_FILE";
 
 #[derive(Debug)]
 pub struct Cpu {
